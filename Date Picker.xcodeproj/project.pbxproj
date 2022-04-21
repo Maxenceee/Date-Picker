@@ -11,6 +11,7 @@
 		3669A45726025AFC00529FAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3669A45626025AFC00529FAC /* ContentView.swift */; };
 		3669A45926025AFE00529FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3669A45826025AFE00529FAC /* Assets.xcassets */; };
 		3669A45C26025AFE00529FAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3669A45B26025AFE00529FAC /* Preview Assets.xcassets */; };
+		36BE98602811CB4F0086317A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BE985F2811CB4F0086317A /* Launch Screen.storyboard */; };
 		36F13FDE27C3814D0010C705 /* DatesGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F13FDD27C3814D0010C705 /* DatesGap.swift */; };
 		36F13FE027C381AA0010C705 /* DatePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F13FDF27C381AA0010C705 /* DatePreview.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 		3669A45826025AFE00529FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3669A45B26025AFE00529FAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3669A45D26025AFE00529FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BE985F2811CB4F0086317A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		36F13FDD27C3814D0010C705 /* DatesGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesGap.swift; sourceTree = "<group>"; };
 		36F13FDF27C381AA0010C705 /* DatePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,8 +80,7 @@
 		36F13FDC27C380CE0010C705 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				36F13FDD27C3814D0010C705 /* DatesGap.swift */,
-				36F13FDF27C381AA0010C705 /* DatePreview.swift */,
+				36BE985F2811CB4F0086317A /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -87,6 +88,8 @@
 		36F13FE127C384210010C705 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				36F13FDD27C3814D0010C705 /* DatesGap.swift */,
+				36F13FDF27C381AA0010C705 /* DatePreview.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BE98602811CB4F0086317A /* Launch Screen.storyboard in Resources */,
 				3669A45C26025AFE00529FAC /* Preview Assets.xcassets in Resources */,
 				3669A45926025AFE00529FAC /* Assets.xcassets in Resources */,
 			);
