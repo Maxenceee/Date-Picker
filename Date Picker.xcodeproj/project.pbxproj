@@ -11,6 +11,8 @@
 		3669A45726025AFC00529FAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3669A45626025AFC00529FAC /* ContentView.swift */; };
 		3669A45926025AFE00529FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3669A45826025AFE00529FAC /* Assets.xcassets */; };
 		3669A45C26025AFE00529FAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3669A45B26025AFE00529FAC /* Preview Assets.xcassets */; };
+		36F13FDE27C3814D0010C705 /* DatesGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F13FDD27C3814D0010C705 /* DatesGap.swift */; };
+		36F13FE027C381AA0010C705 /* DatePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F13FDF27C381AA0010C705 /* DatePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3669A45826025AFE00529FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3669A45B26025AFE00529FAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3669A45D26025AFE00529FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F13FDD27C3814D0010C705 /* DatesGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesGap.swift; sourceTree = "<group>"; };
+		36F13FDF27C381AA0010C705 /* DatePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				3669A45426025AFC00529FAC /* Date_PickerApp.swift */,
 				3669A45626025AFC00529FAC /* ContentView.swift */,
+				36F13FE127C384210010C705 /* Model */,
+				36F13FDC27C380CE0010C705 /* Views */,
 				3669A45826025AFE00529FAC /* Assets.xcassets */,
 				3669A45D26025AFE00529FAC /* Info.plist */,
 				3669A45A26025AFE00529FAC /* Preview Content */,
@@ -67,6 +73,22 @@
 				3669A45B26025AFE00529FAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36F13FDC27C380CE0010C705 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36F13FDD27C3814D0010C705 /* DatesGap.swift */,
+				36F13FDF27C381AA0010C705 /* DatePreview.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36F13FE127C384210010C705 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F13FE027C381AA0010C705 /* DatePreview.swift in Sources */,
+				36F13FDE27C3814D0010C705 /* DatesGap.swift in Sources */,
 				3669A45726025AFC00529FAC /* ContentView.swift in Sources */,
 				3669A45526025AFC00529FAC /* Date_PickerApp.swift in Sources */,
 			);
@@ -272,7 +296,7 @@
 				DEVELOPMENT_TEAM = 238638W3AM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Date Picker/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Maxence-Gama.Date-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +318,7 @@
 				DEVELOPMENT_TEAM = 238638W3AM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Date Picker/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Maxence-Gama.Date-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
